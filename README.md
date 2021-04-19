@@ -10,6 +10,8 @@ Easily create events and implement trigger events or whatever else you want.
 
 #### 2) Assign that event somewhere you want to trigger it.
 ![1](Screenshots_Example/2.png)
+Invoke your game event with code: 
+yourGameEvent.Invoke();
 
 #### 3) Create a listener to that type of event and choose what you want to do.
 ![1](Screenshots_Example/3.png)
