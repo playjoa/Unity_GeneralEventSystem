@@ -25,12 +25,10 @@ public class PlayerTriggerEventArea : MonoBehaviour
     void ActivateEnterEvent() 
     {
         enterEvent?.Invoke();
-        Debug.Log("Player entrou na area!");
     }
 
     void ActivateExitEvent()
     {
         exitEvent?.Invoke();
-        Debug.Log("Player SAIU da area!");
     }
 }
